@@ -24,4 +24,13 @@ git branch -d "Bname" = delete branch
 >when two branches are merged into master, merge conflicts occures
 >after resolving commits, git commit run on master branch
 
+>To add new folder as a repo
+	Create new repo
+	Open folder in git
+	git init
+	add readme.md and git commit -am "msg"
+	git remote add origit "sha link"
+	git branch -M main
+	git push -u origin master
+
 
