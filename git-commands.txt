@@ -1,0 +1,27 @@
+git init  = intialize repo
+git status = show status
+git diff = show differnce in before after
+git log = show commit history
+git log -p = show commit history and changes
+git log --stat = show change stat
+git show "id" = show perticular change in id
+git add "file" = add into stage index
+git commit -m "message" = add to permanent
+git commit -am "message" = add into stage index & permanent
+git push = push into repo
+git restore "file" = undo modifide head
+.gitignore = folder for ignore extra file/folder
+
+git clone "others git link"
+
+git branch = show all branches and current branch
+git branch "Bname" = create new branch
+git checkout "Bname" = move to branch
+git checkout -b "Bname" = create and move to new branch
+git merge "Bname" = merge into master
+git branch -d "Bname" = delete branch 
+
+>when two branches are merged into master, merge conflicts occures
+>after resolving commits, git commit run on master branch
+
+
