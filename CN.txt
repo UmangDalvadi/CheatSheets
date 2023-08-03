@@ -1,0 +1,50 @@
+PAN- Private area network
+LAN- Local area network
+CAN- Campus area network
+MAN- Metropolitician area network
+WAN- Wide area network
+SAN- Storage area network
+
+------------------------------------------------------------------------------------------------------
+
+How Internet Work?
+>Through ISP
+>tracert <|www.google.com|> = to find total IPs from source to destination (Run in cmd)
+
+--------------------------------------------------------------------------------------------------------
+
+peer To peer method
+client - server method
+
+---------------------------------------------------------------------------------------------------------
+
+Mesh Topology = Each node connect with each node
+Star Topology = Each node connected with one switch/hub as a star design
+Bus/Line Topology = Main line(Back bone), Semi line(Drop line), Connection(Tap)
+Ring Topology = Each device connected with two devices
+Tree Topology = Star + Bus
+Hybrid Topology = Collection of 2+ Topologies attached with one main line
+
+----------------------------------------------------------------------------------------------------------
+
+ICANN (Internet Corporation for Assigned Names and Numbers) = 
+	Non profit organization which 	store all the IPs and there Domain name and provide DNS service with security
+
+IANA (Internet Assigned Numbers Authority) =
+	ICANN perform all the IANA function, Responsible for global unique internet identifier systems
+
+To find IP of any domain =
+	Run this command in cmd: nslookup <|www.google.com|>
+
+To find all IP and domain server detailes of our system =
+	 Run this command in cmd: ipconfig /all
+
+----------------------------------------------------------------------------------------------------------
+
+MAC Address (Media Access Control) =
+	Its a Physical address, 
+	NIC (Network Interface Controller) card have this address,
+	MM:MM:MM:SS:SS:SS (12 numericals, 6 pairs, M - manufacturing num, S - serial num)
+
+To find mac add in cmd =
+	getmac, ipconfig /all
