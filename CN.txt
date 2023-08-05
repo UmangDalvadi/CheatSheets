@@ -48,3 +48,20 @@ MAC Address (Media Access Control) =
 
 To find mac add in cmd =
 	getmac, ipconfig /all
+
+----------------------------------------------------------------------------------------------------------
+
+Sofware Ports = Logical data connection for exchange data
+
+TCP ( Transmission Control Protocoal ) = 
+	Forward package and check
+	HTTP 80, HTTPS 443, FTP 
+	Xender, ShareIT
+
+UDP ( User Datagram Protocoal ) =
+	Directly send data
+	DNS,IP,DHCP
+	Bluetooth
+
+Port Addresing
+Port Forwarding = Forwarding Private to Public and wise-versa (Router)
