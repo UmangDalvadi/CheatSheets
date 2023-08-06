@@ -64,4 +64,43 @@ UDP ( User Datagram Protocoal ) =
 	Bluetooth
 
 Port Addresing
+
 Port Forwarding = Forwarding Private to Public and wise-versa (Router)
+
+--------------------------------------------------------------------------------------------------------
+
+IP address =
+	IANA provide unique identification of each device in internet via IPs
+	Types: IPv4, IPv6
+
+Private IP = Provided by our ISP 
+Public IP = Provided by IANA for globle identification
+------------------------------------------
+IPv4 =
+	Size: 32 bits
+	Range: 0.0.0.0 to 255.255.255.255 ( 4 OCTET of 8 bits )
+
+5 Diff classes =
+	
+	127.0.0.0 to 127.255.255.255 ( look back IPs, work in localhost )
+
+	A: 1 to 126 ( diff: 125 )
+		format: NHHH ( N- network, H- host )
+		range: 1.1.1.1 to 126.255.255.255 ( means total host in this network is: 255*255*255 )
+
+	B: 128 to 191( diff: 63 )
+		format: NNHH
+		range: 128.16.0.0 to 191.255.255.255 ( means total network: N*N, host in one network: H*H )
+
+	C: 192 to 223( diff: 31 )
+		format: NNNH
+		range: 192.168.0.0 to 223.255.255.0 ( total network: N*N*N, host in one network: H )
+
+	D: 224 to 239 ( diff: 15 )
+		Used for special purpose ( SmartHome, SelfDrive Car )
+		Known as Multicast address
+
+	E: 240 to 255 ( diff: 15 )
+		Reserved for research and devlopement
+	
+
