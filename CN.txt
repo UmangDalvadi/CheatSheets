@@ -73,8 +73,15 @@ IP address =
 	IANA provide unique identification of each device in internet via IPs
 	Types: IPv4, IPv6
 
-Private IP = Provided by our ISP 
-Public IP = Provided by IANA for globle identification
+IPv4 (32 bit) is limited Therefor IPv6 (128 bit) is introduce
+
+Dynamic IPs = IP of device is free when its internet is off, because of limitation of IPs
+Static IPs = we can make our IP static by ISP, then its all time same even internet is off or not
+
+Private IP = Provided by our ISP or Router
+Public IP = Provided by IANA for globle identification ( Mobile data self)
+
+
 ------------------------------------------
 IPv4 =
 	Size: 32 bits
