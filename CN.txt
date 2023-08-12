@@ -109,5 +109,22 @@ IPv4 =
 
 	E: 240 to 255 ( diff: 15 )
 		Reserved for research and devlopement
+
+-------------------------------------------------------------------------------------------------
+
+DHCP (Dynamic Host Configuration Protocol) =
+	Extention of BOOTP,
+	Provide Temp IP Automatically,
+	No need to IP config, DNS setup and all...
+
+ARP (Address Resolution Protocol)=
+	Private IP -> Port Forwarding -> MAC and IP(Port Num) Table -> Server
+
+RARP (Reverse Address Resolution Protocol)=	
+	Reverse of ARP
+
+DHCP Alternate =
+	BOOTP (BOOTstrap Protocol): Work on UDP, Provide Static IP
+	APIPA: When DHCP is Failed to provide IP then APIPA is active for Providing IP
 	
 
