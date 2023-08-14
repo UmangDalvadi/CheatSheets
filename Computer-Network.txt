@@ -126,5 +126,22 @@ RARP (Reverse Address Resolution Protocol)=
 DHCP Alternate =
 	BOOTP (BOOTstrap Protocol): Work on UDP, Provide Static IP
 	APIPA: When DHCP is Failed to provide IP then APIPA is active for Providing IP
+
+-----------------------------------------------------------------------------------------------------
+
+DNS (Domain Name Server)=
+	Its a database for storing IPs and their corresponding  Domain 
+	Used for converting IP to Domain name & vise-wersa
+	Last_name.Sub_domain(Third-level).Second-level.Top-level domain
+
+Top-level Domain:
+	Organization Domain (.com/.org/.edu/.net/.gov)
+	Geographic/Contry Domain (.in)
+	Reverse Domain (.info/.xyz)
+
+Forward DNS Lookup: Domain to IP
+Reverse DNS Lookup: IP to Domain (When search direct IP)
+
+CMD Command: nslookup google.com (for get IP of ...)
 	
 
