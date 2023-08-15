@@ -143,5 +143,12 @@ Forward DNS Lookup: Domain to IP
 Reverse DNS Lookup: IP to Domain (When search direct IP)
 
 CMD Command: nslookup google.com (for get IP of ...)
-	
+
+--------------------------------------------------------------------------------------------------
+
+NAT (Network Address Translation)=
+	Alternat way of IPv4 solution: IPv6, CIDR (Classless InterDomain Routing), NAT
+	Way for Conserve IPs, Hide host behind single IP, Use private IPs
+	Its a Router function which connect Private and public host in internate
+	NAT create table for port forwarding 	
 
