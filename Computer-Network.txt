@@ -179,3 +179,8 @@ TELNET (23)=
 	Alternate of anydesk/team viewer (min 32bit)
 	Work in CMD ( 8 bit - faster then software)
 	Use TCP
+
+---------------------------------------------------------------------------------------------------------
+
+PING (Packet Internet Groper) =
+	Used for check IP (of device) is available in our network or notS
