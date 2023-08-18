@@ -152,3 +152,8 @@ NAT (Network Address Translation)=
 	Its a Router function which connect Private and public host in internate
 	NAT create table for port forwarding 	
 
+---------------------------------------------------------------------------------------------------
+
+OSI Model (Open System Interconnection)=
+	Define how data tranfer & Recive in internate throught 7 Layers 
+	Application, Presentation, Session, Transport, Network, Data-Link, Physical

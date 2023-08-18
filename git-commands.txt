@@ -29,7 +29,7 @@ git branch -d "Bname" = delete branch
 	Open folder in git
 	git init
 	add readme.md and git commit -am "msg"
-	git remote add origit "sha link"
+	git remote add origin "sha link"
 	git branch -M main
 	git push -u origin master
 
