@@ -55,13 +55,16 @@ Sofware Ports = Logical data connection for exchange data
 
 TCP ( Transmission Control Protocoal ) = 
 	Forward package and check
+	Connection is byte stream
 	HTTP 80, HTTPS 443, FTP 
-	Xender, ShareIT
+	Xender, ShareIT (Full Duplex)
 
 UDP ( User Datagram Protocoal ) =
 	Directly send data
+	Connection is message stream
+	Support Broadcasting
 	DNS,IP,DHCP
-	Bluetooth
+	Bluetooth (Half Duplex)
 
 Port Addresing
 
@@ -112,6 +115,8 @@ IPv4 =
 
 -------------------------------------------------------------------------------------------------
 
+Protocoal = Set of rules for communication on internet
+
 DHCP (Dynamic Host Configuration Protocol) =
 	Extention of BOOTP,
 	Provide Temp IP Automatically,
@@ -157,3 +162,20 @@ NAT (Network Address Translation)=
 OSI Model (Open System Interconnection)=
 	Define how data tranfer & Recive in internate throught 7 Layers 
 	Application, Presentation, Session, Transport, Network, Data-Link, Physical
+
+TCP/ IP Model =
+	Sub part of OSI Model 
+	Application layer (Application, Presentation, Session):
+		HTTP, HTTPS, SMTP, FTP, TELNET, SSH, DNS, SNMP, NFS, RPC, TFTP
+	Transport:
+		TCP, UDP
+	Network:
+		ICMP, IGMP, IP, ARP, RARP
+	Network Interface (Data-link, Physical)
+
+---------------------------------------------------------------------------------------------------------
+
+TELNET (23)=
+	Alternate of anydesk/team viewer (min 32bit)
+	Work in CMD ( 8 bit - faster then software)
+	Use TCP
