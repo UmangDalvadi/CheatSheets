@@ -2,6 +2,8 @@ OWASP & PortSwigger - lerning with labs
 Hackerone Hactivity, Medium artical - Reported Bug Explain
 Hacker101 (Web CTF), Try Hack Me, Hack The Box - For CTF Practice
 
+----------------------------------------------------------------------------------------------
+
 Information Gather: 
 
 1. BASIC RECON WITH WHOIS LOOKUP
