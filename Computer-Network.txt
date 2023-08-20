@@ -183,4 +183,4 @@ TELNET (23)=
 ---------------------------------------------------------------------------------------------------------
 
 PING (Packet Internet Groper) =
-	Used for check IP (of device) is available in our network or notS
+	Used for check IP (of device) is available in our network or not
