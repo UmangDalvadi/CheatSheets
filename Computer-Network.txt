@@ -66,6 +66,11 @@ UDP ( User Datagram Protocoal ) =
 	DNS,IP,DHCP
 	Bluetooth (Half Duplex)
 
+Types of communication =
+	Simplex: only can send data OR only can recive data
+	Duplex: Send and recive parallely 
+	Half Duplex: Send and Recive but not parallel
+
 Port Addresing
 
 Port Forwarding = Forwarding Private to Public and wise-versa (Router)
@@ -184,3 +189,15 @@ TELNET (23)=
 
 PING (Packet Internet Groper) =
 	Used for check IP (of device) is available in our network or not
+
+---------------------------------------------------------------------------------------------------------
+
+SWITCH = 
+	For connect more than one computer together
+	Use MAC (ARP) table for identification
+	Inteligent than HUB
+
+HUB =
+	Similar like SWITCH but no internet access
+	Broadcasting all the connected devices
+	Used in private network
