@@ -210,3 +210,19 @@ ROUTER=
 
 REPEATER=
 	Used for regenerate signal on lond distance, and clear noice, and manage speed
+
+BRIDGE=
+	Used for interconnect two networks 
+	Filterd unwanted request
+
+GATEWAY=
+	Part of router which is used for connect public and private network 
+	Can forward packets between different protocoals
+
+MODEM (Modulator & Demodulator)=
+	Convert Analog to Digital (Modulate) & Digital to Analog (Demodulate) from Wire to Computer and wise versa
+
+========================================================
+
+PROXY =
+	Like VPN, Hide our real IP with another IP and enlable to serve ban websites
