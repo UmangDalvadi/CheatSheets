@@ -1,0 +1,53 @@
+Data makes information
+Information in digital world is Cyber-Security
+
+------------------------------------------------------------------------------------------------------
+
+Threats =
+	If someone access your info than this someone is threat for you
+	It can be person, object or any event
+
+Types:
+	Inadvertent  threats (human failuar)
+	Physical disasters (natural disasters)
+	Technical failures (hardware or software)
+	->Deliberate acts (hacking, espionage)
+-----------------------------------------------------------------------------------------------------
+Terms=
+	CIA Triad:
+	[
+	Confidentiality: No telling to unthourized person ( Wider than privacy )
+	Integrity: Completeness and accuracy of data
+	Availability: When needed, data is available
+	]                                                                          
+	Non-repudiation: Acceptance for both parties about reciving and sending
+	Authenticity: You should actual be who authorized for data
+
+------------------------------------------------------------------------------------------------------
+
+"THE QUIETER YOU BECOME, THE MORE YOU ARE ABLE TO HEAR"
+
+------------------------------------------------------------------------------------------------------
+
+INFORMATION WARFARE =
+	Stealing info of group of people or enemy for special porpose or advantage
+CYBER WARFARE=
+	Same as info warfare but digitally
+
+-------------------------------------------------------------------------------------------------------
+
+Vulnerability: Weakness that can be exploited
+Threat: One who exploit vulnerability
+Risk: Damage cause by exploting vulnerability
+Asset: Which need to be accessed after explotation
+Bug: Error, fault or flaw that may cause unexpected error
+Hacker: Gain acces with or without malicious intent
+Cracker: Gain access to harm asset, always malicious
+InfoSec: Information Security/ Cyber security/ Data security
+Penetration Testing: Testing and Reporting the security loopholes
+Vulnerability Assessment: Testing and Repoting loopholes, and tells how to fix
+VAPT: VA (How to gain access and dive into target), PT (How deeply we can dive and find weakness)
+Cyber Espionage: Spying on someone to gain confidantial info about them
+Exploits: Attacker designed to cause unexpected behaviour to gain advantage
+Script Kiddie: Noob hacking without any skill
+Zero-Day: Vulnerability not known by professionals, only known by hacker
