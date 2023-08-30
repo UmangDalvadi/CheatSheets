@@ -51,3 +51,17 @@ Cyber Espionage: Spying on someone to gain confidantial info about them
 Exploits: Attacker designed to cause unexpected behaviour to gain advantage
 Script Kiddie: Noob hacking without any skill
 Zero-Day: Vulnerability not known by professionals, only known by hacker
+
+----------------------------------------------------------------------------------------------------
+
+Phase of EH =
+
+Footprinting: Gaining as much information about the target, like open ports, network info, personal info, social info, system info etc...
+
+Scanning: Finding loopholes and vulnerabilities in the information that we are gathered, like login vulnerability etc...
+
+Gaining access/ Exploitation: Exploit the vulnerabilities with tools and techniques
+
+Mintaining access/ Backdoor creation: Creating and deploying backdoor (Hidden way for entering into system and gain access for long time) for persistence
+
+Clearing logs: Removing traces and records (that we are created when enterd) to avoid being caught
