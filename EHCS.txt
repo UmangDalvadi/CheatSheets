@@ -54,7 +54,7 @@ Zero-Day: Vulnerability not known by professionals, only known by hacker
 
 ----------------------------------------------------------------------------------------------------
 
-Phase of EH =
+5 Phase of EH =
 
 Footprinting: Gaining as much information about the target, like open ports, network info, personal info, social info, system info etc...
 
@@ -65,3 +65,27 @@ Gaining access/ Exploitation: Exploit the vulnerabilities with tools and techniq
 Mintaining access/ Backdoor creation: Creating and deploying backdoor (Hidden way for entering into system and gain access for long time) for persistence
 
 Clearing logs: Removing traces and records (that we are created when enterd) to avoid being caught
+
+----------------------------------------------------------------------------------------------------
+
+Penetration Testing=
+	Authorized simulated cyber attack on a system
+	Its done for check system immunity and capacity
+	Perticular domain knowledge is importante
+	EH is learning, but PT is implementation
+
+7 Phase of PT =
+	
+Pre Engagement: Meeting with client for clear their vision and needs
+
+Planning/ Recon/ Footprinting: Gather all info for scan
+
+Threat modelling and Vulnerability identification: Create model of all security concerns and ranking all vulnerability from high risk to low
+
+Explotation: Find bug or Breaching system by vulnerability
+
+Post Explotation: Same as Maintain attack and attack 2nd time with the help of first attack and continue...
+
+Reporting: Detailing the vulnerabilty found and their impact and remedies
+
+Resolution and Re-Testing: Resolve the issue and than re test all vulnarebility
