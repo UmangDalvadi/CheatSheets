@@ -89,3 +89,34 @@ Post Explotation: Same as Maintain attack and attack 2nd time with the help of f
 Reporting: Detailing the vulnerabilty found and their impact and remedies
 
 Resolution and Re-Testing: Resolve the issue and than re test all vulnarebility
+
+----------------------------------------------------------------------------------------------------
+
+OWASP= Open Web Application Security Project
+	https://owasp.org/www-project-web-security-testing-guide/
+	Non profit Org
+	Work on providing security of software
+
+OWASP TOP 10: 
+	https://owasp.org/www-project-top-ten/
+	Every 3 year owasp provide report of top 10 vulnerability that found on web app
+
+DVWA= Damn Vulnerable Web Application
+	https://sourceforge.net/projects/dvwa.mirror/
+	Its a PHP/MySQL web application that is vulnerable
+	Created for test attack on their vunerable web and learn EH
+
+bWAPP= buggy Web Application
+	https://sourceforge.net/projects/bwapp/
+	bWAPP is a PHP application that uses a MySQL database.
+	Similar like DVWA but support older syntax of MySQL, like mysql_connect...
+
+Metasploitable=
+	https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+	Its a intentionally created vulnerable linux vertual machine
+	That can be used for test our PT skills on them (act like victim)
+
+OWASP Broken Web Applications Project=
+	https://sourceforge.net/projects/owaspbwa/
+	Similar like metasplotable and many more...
+	Includes bWAPP and DVWA 
