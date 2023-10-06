@@ -209,7 +209,7 @@ ROUTER=
 	Multicaste routing: packet sent to those node which want it...
 
 REPEATER=
-	Used for regenerate signal on lond distance, and clear noice, and manage speed
+	Used for regenerate signal on long distance, and clear noice, and manage speed
 
 BRIDGE=
 	Used for interconnect two networks 
