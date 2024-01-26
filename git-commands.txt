@@ -33,4 +33,11 @@ git branch -d "Bname" = delete branch
 	git branch -M main
 	git push -u origin master
 
+>Git stash
+	git stash -m "create stash" = To create a new stash with 'create stash' lable
+	git stash list = to list all the available stash
+	git stash apply shash@{2} = to apply perticular stash on code
+	git stash drop shash@{2} = to delete perticular stash
+	git stash clear = to delete all stashes
+
 

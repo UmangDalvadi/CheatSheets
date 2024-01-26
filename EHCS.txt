@@ -4,7 +4,7 @@ Information in digital world is Cyber-Security
 ------------------------------------------------------------------------------------------------------
 
 Threats =
-	If someone access your info than this someone is threat for you
+	If someone access your info than this is threat for you
 	It can be person, object or any event
 
 Types:
@@ -120,3 +120,14 @@ OWASP Broken Web Applications Project=
 	https://sourceforge.net/projects/owaspbwa/
 	Similar like metasplotable and many more...
 	Includes bWAPP and DVWA 
+
+-----------------------------------------------------------------------------------------------
+
+commands for windows cmd:
+	D: -for directly change drive
+	dir -List all the directories of current location
+	dir /? -Help 
+	mkdir/md -make directory
+	rmdir -remove directory
+	type -visite directory content
+	help -list of basics commands
