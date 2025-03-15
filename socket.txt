@@ -1,0 +1,9 @@
+io =  entire circuit
+socket = single user
+
+emit = send data with event [ event(data) ]
+ON = recive data with event [ event(data) ]
+
+broadcast.emit = send msg to all other user
+to( user_room(id) ).emit = send personal msg by id
+join( room ) = create room ( grp ) to send msg

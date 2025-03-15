@@ -1,0 +1,19 @@
+useState
+useEffect
+useMemo
+useCallback (with memo)
+Routing - Protected route/ Public route
+useRef
+React.lazy (Lasily import component)
+Suspend API (For fetch async comp in Routes)
+Context API
+Life cycle events
+Custom Hooks (Start with useMyhook)
+
+RecoilRoot( wraper )
+Atom ( create State)
+useRecoilValue ( To select value of state)
+useRecoilState ( To select whole state )
+useSetRecoilState ( To select setState )
+Selector ( used for use logic without importing state )
+ 

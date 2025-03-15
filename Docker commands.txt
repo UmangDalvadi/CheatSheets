@@ -1,0 +1,36 @@
+DOCKER COMMANDs
+
+docker run -it ubuntu         =create new container with ubuntu image with interactive mode
+
+docker run -p <local port>:<docker port> node        =run docker image into our local machine on exposed port
+docker run -d -p 8000:3000 node            = used to exposed image on local 8000 port and in detached mode ( in background ) means we can use terminal after running image
+docker run -p 8000:3000 --name myApp node           = we can also give name to our app or image 
+docker run -p 80:80 -e key:value myApp         = to pass env into our container
+
+docker container ls "or" docker ps            = list all active container only
+docker container ls -a "or" docker ps -a         = list all container
+docker image ls "or" docker images              = list all images
+
+docker start <container name or id>         = to start docker container
+docker stop <container name or id>         = to stop docker container
+
+docker exec <container name or id> <command> = it execute command into your docker container and give back output on our terminal
+docker exec -it <container name or id> bash = connect with container bash 
+
+docker rm <container-id-1> <container-id-2> ...            = to remove stopped docker container
+docker container prune          = remove all stopped container
+docker rm -f <container-id-1>            = force remove container
+
+docker rmi <image-id-1> ...         = remove image
+docker image prune          = remove unused image
+docker rmi -f <image-id-1>             = force remove image
+
+docker system prune -a        = remove all unused container and images both
+
+docker network ls       = list all network from docker
+docker network inspect <network-id or name>       = give info about specific network
+docker network create <network-name>           = create new docker network
+docker network create -d bridge <network-name>          = create bridge network
+docker network rm <network-id or name>       = remove network
+
+docker create -it -v <host-folder-name>:<container-folder-name> ubuntu        = to create volume mountind between host and container

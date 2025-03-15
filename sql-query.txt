@@ -1,0 +1,60 @@
+student_master: student_id, student_name
+exam_master: exam_id, exam_name
+student_exam_details: student_id, exam_id, sub1_marks, sub2_marks, sub3_marks, sub4_marks, sub5_marks,
+create table from this: student_name, exam_name, total_marks, percentage, grade
+=================================================================
+create table student_master(
+    student_id int primary key,
+    student_name varchar(255) not null
+);
+
+insert into student_master (student_id, student_name) 
+values (1, 'umang'), (2, 'keval');
+---------------------------------------------------------------------------
+create table exam_master(
+    exam_id int primary key,
+    exam_name varchar(255) not null
+);
+
+insert into exam_master (exam_id, exam_name) 
+values (1, 'exam01'), (2, 'exam02');
+-----------------------------------------------------------------------------
+create table student_exam_details(
+    student_id int,
+    exam_id int,
+    sub1_marks int,
+    sub2_marks int,
+    sub3_marks int,
+    sub4_marks int,
+    sub5_marks int,
+    foreign key (student_id) references student_master(student_id),
+    foreign key (exam_id) references exam_master(exam_id)
+);
+
+insert into student_exam_details (
+    student_id,
+    exam_id,
+    sub1_marks,
+    sub2_marks,
+    sub3_marks,
+    sub4_marks,
+    sub5_marks
+) values 
+(1, 1, 40, 30, 70, 99, 86), 
+(2, 1, 80, 60, 30, 92, 86);
+-----------------------------------------------ans--------------------------------------------------
+select 
+    s.student_name as student_name, 
+    e.exam_name as exam_name, 
+    (sed.sub1_marks + sed.sub2_marks + sed.sub3_marks + sed.sub4_marks + sed.sub5_marks) as total_marks, 
+    ((sed.sub1_marks + sed.sub2_marks + sed.sub3_marks + sed.sub4_marks + sed.sub5_marks) / 500) * 100 as percentage, 
+    case 
+        when ((sed.sub1_marks + sed.sub2_marks + sed.sub3_marks + sed.sub4_marks + sed.sub5_marks) / 500) * 100 between 0 and 40 then 'D'
+        when ((sed.sub1_marks + sed.sub2_marks + sed_sub3_marks + sed.sub4_marks + sed.sub5_marks) / 500) * 100 between 41 and 60 then 'C'
+        when ((sed.sub1_marks + sed.sub2_marks + sed.sub3_marks + sed.sub4_marks + sed.sub5_marks) / 500) * 100 between 61 and 80 then 'B'
+        when ((sed.sub1_marks + sed.sub2_marks + sed.sub3_marks + sed.sub4_marks + sed.sub5_marks) / 500) * 100 between 81 and 100 then 'A'
+    end as Grade
+from 
+    student_master as s 
+    inner join student_exam_details as sed on s.student_id = sed.student_id
+    inner join exam_master as e on sed.exam_id = e.exam_id;
